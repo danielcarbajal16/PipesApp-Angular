@@ -4,7 +4,7 @@ import { Observable, interval, tap } from 'rxjs';
 @Component({
   selector: 'app-uncommon-page',
   templateUrl: './uncommon-page.component.html',
-  styleUrls: ['./uncommon-page.component.css']
+  styleUrls: []
 })
 export class UncommonPageComponent {
   //i18n Select
