@@ -1,3 +1,4 @@
+import { PrimeNgModule } from './../prime-ng/prime-ng.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -15,6 +16,7 @@ import { UncommonPageComponent } from './pages/uncommon-page/uncommon-page.compo
   ],
   imports: [
     CommonModule,
+    PrimeNgModule,
     ProductsRoutingModule
   ]
 })
