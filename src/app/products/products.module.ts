@@ -7,8 +7,9 @@ import { BasicsPageComponent } from './pages/basics-page/basics-page.component';
 import { NumbersPageComponent } from './pages/numbers-page/numbers-page.component';
 import { UncommonPageComponent } from './pages/uncommon-page/uncommon-page.component';
 import { OrderComponent } from './pages/order/order.component';
-import { ToggleCasePipe } from './pipes/toggle-case.pipe';
 import { CanFlyPipe } from './pipes/canfly.pipe';
+import { SortByPipe } from './pipes/sort-by.pipe';
+import { ToggleCasePipe } from './pipes/toggle-case.pipe';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { CanFlyPipe } from './pipes/canfly.pipe';
     UncommonPageComponent,
     OrderComponent,
     CanFlyPipe,
+    SortByPipe,
     ToggleCasePipe
   ],
   imports: [
